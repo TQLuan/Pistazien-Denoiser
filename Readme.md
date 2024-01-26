@@ -29,7 +29,7 @@ The denoised human speech signals from mentioned methods are compared in STOI, G
       - log_mmse_model_port.py: The implementation and port for GUI of LogMMSE.
     - MMSE_STSA: For the storage of MMSE-STSA model.
       - utils: Test files form original git repo.
-      - mmse_stsa_model_port.py: The implementation and port for GUI of LogMMSE.
+      - mmse_stsa_model_port.py: The implementation and port for GUI of MMSE-STSA.
     - Unet: For the storage of Unet20 model.
       - unet_temp: Storage for test wav files of Unet
       - Unet20_Weights.pth: The weights for Unet20 model.
