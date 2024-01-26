@@ -1,6 +1,6 @@
 # Pistazien Denoiser
 
-A denoiser focus on human speech signal using DEMCUS, DTLN, Grach, logMMSE, MMSE-STSA and Unet20.
+A denoiser focusing on human speech signal using DEMCUS, DTLN, Grach, logMMSE, MMSE-STSA and Unet20.
 
 The denoised human speech signals from mentioned methods are compared in STOI, Gain and blind SNR. The plots can be further plotted in time and frequency domain.
 
@@ -14,8 +14,8 @@ The denoised human speech signals from mentioned methods are compared in STOI, G
     - metrics_utils.py: Interface for the GUI.
     - noise_addition_utils.py: Add noise on wav file.
   - Models
-    - DEMCUS: For the storage of DEMCUS model.
-      - denoiser: The implementation of DEMCUS.
+    - DEMUCS: For the storage of DEMUCS model.
+      - denoiser: The implementation of DEMUCS.
       - demcus_model_port.py: The interface for GUI.
     - DTLN: For the storage of DTLN model.
       - DTLN_model.py: The implementation of DTLN.
